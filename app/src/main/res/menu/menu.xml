@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="News"
+        android:icon="@drawable/ic_icon_awesome_newspaper"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+    <item
+        android:id="@+id/bottom_nav_manage"
+        android:title="Add Tickets"
+        android:icon="@drawable/ic_icon_awesome_ticket_alt"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Show Orders"
+        android:icon="@drawable/ic_icon_awesome_first_order"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+
+</menu>
